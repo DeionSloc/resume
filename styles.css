@@ -14,6 +14,7 @@ h1 {
 .circular {
     border-radius: 75%;
     width: 10%;
+    padding: 2%
 }
 
 table {
@@ -66,3 +67,4 @@ li {
 .more {
   display: none;
 }
+
