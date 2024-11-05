@@ -68,3 +68,19 @@ li {
   display: none;
 }
 
+.grid-container{
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns:
+  repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  justify-content: center;
+  padding: 2%;
+}
+
+.grid-container .card{
+  background-color: blanchedalmond;
+  min-width: 300px;
+  padding: 1.5%;
+  min-height: 250px;
+}
